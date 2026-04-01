@@ -1,0 +1,19 @@
+Recomendação de músicas no Spotify
+
+Software + problema:
+Plataforma precisa manter usuários engajados e reduzir cancelamentos, mostrando músicas relevantes entre as opções.
+
+IA (funcionalidade):
+Recomendar músicas personalizadas para cada usuário.
+
+Entrada: histórico de reprodução, tempo ouvindo música, avaliações, buscas, horário de uso, dispositivo, comportamento de usuários semelhantes.
+Saída: listas personalizadas (ex.: “Recomendados para você”), músicas personalizadas.
+
+Técnica provável:
+Sistemas de recomendação (filtragem colaborativa + modelos de deep learning).
+
+Métrica de sucesso:
+Tempo de reprodução, taxa de retenção, CTR (cliques nas músicas recomendadas).
+
+Negócio:
+Aumento de retenção de usuários e redução de churn (cancelamentos).

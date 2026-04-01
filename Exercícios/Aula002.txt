@@ -1,0 +1,40 @@
+1) Preparação de dados
+Impacta mais que o algoritmo porque dados ruins geram modelos ruins (garbage in, garbage out). Limpeza, tratamento e boas variáveis são essenciais.
+
+2) Valores ausentes (25%)
+a) Estratégias: remover dados, imputar (média/mediana/moda), usar modelos (KNN/regressão) ou criar indicador de ausência.
+b) Não remover quando: há muitos dados faltantes, dataset pequeno, risco de viés ou variável importante.
+
+3) Normalização vs Padronização
+Normalização: escala 0–1 → melhor para KNN e redes neurais
+Padronização: média 0, desvio 1 → melhor para regressões e SVM
+
+5) Overfitting e Separação
+Treino: aprender
+Validação: ajustar
+Teste: avaliar final
+
+6) Balanceamento de Classes (95% vs 5%)
+a) Problema: modelo tende a prever só a classe majoritária.
+b) Soluções:
+Oversampling (ex.: SMOTE)
+Undersampling
+Ajuste de pesos das classes
+
+7) Outliers
+a) Valores muito fora do padrão dos dados.
+b) Remover prejudica quando são dados reais importantes (ex.: casos raros).
+c) Método: IQR (intervalo interquartil) ou Z-score.
+
+8) Feature Engineering
+Criar idade é melhor porque:
+Mais interpretável
+Evita cálculos com datas
+Captura melhor o padrão para o modelo
+
+9) Pipeline de Pré-processamento
+Tratar valores ausentes (imputação)
+Codificar categóricos (One-Hot)
+Escalonar dados (normalização/padronização)
+Balancear classes (oversampling/undersampling)
+
